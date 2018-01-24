@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("Open_Sans/OpenSans-Regular.ttf");
+}
+
+body {
+	background-color: #f9fafc;
+	font-family: "Open Sans";
+}
+
+nav li {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+#navContain {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end; 
+}
+
+#ipsum {
+	border-left: 2px solid #69696a;
+	padding-left: 7px;
+	margin: 50px;
+	clear: left;
+}
+
+#hireUs {
+	background-color: #000;
+	color: #FFF;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+#peach {
+	background-color: rgba(247, 193, 162, 0.7);
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	position: relative;
+	top: 430px;
+	left: 150px;
+	z-index: 10;
+}
+
+#purple {
+	background-color: rgba(207, 130, 213, 0.6);
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	position: relative;
+	left: 210px;
+	top: 160px;
+	z-index: 5;
+}
+
+#pink {
+	background-color: rgba(247, 136, 167, 0.6);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+}
+
+#circles {
+	position: relative;
+	float: right;
+	bottom: 400px;
+	right: 100px;
+}
