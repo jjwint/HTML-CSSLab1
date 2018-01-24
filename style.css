@@ -31,8 +31,10 @@ nav {
 #ipsum {
 	border-left: 2px solid #69696a;
 	padding-left: 7px;
-	margin: 50px;
-	clear: left;
+	margin-left: 50px;
+	margin-right: 400px;
+	position: relative;
+
 }
 
 #hireUs {
@@ -48,8 +50,8 @@ nav {
 	height: 170px;
 	border-radius: 50%;
 	position: relative;
-	top: 430px;
-	left: 150px;
+	top: 420px;
+	left: 165px;
 	z-index: 10;
 }
 
@@ -60,7 +62,7 @@ nav {
 	border-radius: 50%;
 	position: relative;
 	left: 210px;
-	top: 160px;
+	top: 150px;
 	z-index: 5;
 }
 
@@ -78,3 +80,23 @@ nav {
 	bottom: 400px;
 	right: 100px;
 }
+
+#scrollDown {
+	background-color: #000;
+	color: #FFF;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#button {
+	text-align: center;
+	position: relative;
+	top: 400px;
+}
+
+
+
+
+
+
